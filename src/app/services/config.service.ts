@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 export class ConfigService {
 
   private readonly localUrl = 'http://127.0.0.1:8001';
-  private readonly productionUrl = 'https://backend-production-ed4f.up.railway.app';
+  private readonly productionUrl = 'https://backend-python-production-0cc8.up.railway.app/';
 
   getApiUrl(path: string): string {
 
