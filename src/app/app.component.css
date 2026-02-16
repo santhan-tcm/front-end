@@ -27,6 +27,7 @@
 
 .logo-icon {
     background: var(--primary-gradient);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 32px;
@@ -70,6 +71,16 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.user-info img {
+    height: 40px;
+    width: 130px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: white;
+    padding: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .env-chip {
